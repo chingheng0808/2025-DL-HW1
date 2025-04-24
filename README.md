@@ -35,3 +35,6 @@ python test1.py --q1 anyInput
 ## Q2
 python test2.py ## for using your trained ckpt, plz use '--ckpt' to specify
 ```
+
+* Some Useful
+  You can visist "test.ipynb" to see some visualization and analysis.

@@ -13,7 +13,9 @@ Course homework. Professor: C C,Hsu
 ```
 git clone https://github.com/chingheng0808/2025-DL-HW1.git
 cd 2025-DL-HW1
-## For sure you have create a environment installed Pytorch.
+## Please ensure you have created an environment with PyTorch installed.
+
+### Training
 ## Q1
 # train baseline (ResNet34)
 python train1.py --q1 baseline --model_name org_resnet34
@@ -22,4 +24,14 @@ python train1.py --q1 anyInput --model_name anyInput
 
 ## Q2
 # python train2.py --model_name small_net
+
+### Testing
+## Q1
+# test baseline (ResNet34)
+python test1.py --q1 baseline ## for using your trained ckpt, plz use '--ckpt' to specify
+# test preprocessing ver. 
+python test1.py --q1 anyInput
+
+## Q2
+python test2.py ## for using your trained ckpt, plz use '--ckpt' to specify
 ```
